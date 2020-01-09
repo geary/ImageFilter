@@ -2,7 +2,9 @@
 
 This is an experiment in filtering images on a web page. The goal is to be able to apply something like brightness and contrast adjustments, either for all colors at once, or for the individual red, green, and blue channels.
 
-To try out the current version of this experiment, clone this repo and copy an image of your choice to `image.png` in the root directory next to `index.html`. Then load `index.html` in any modern web browser. There is no build process; the test page is pure HTML/JavaScript/CSS.
+To try out the current version of this experiment, clone this repo and copy an image of your choice to `image.png` in the root directory next to `index.html`. Then load `index.html` in any modern web browser.
+
+There is no build process; the test page is pure HTML/JavaScript/CSS. The only dependencies are [noUiSlider](https://refreshless.com/nouislider/) and [jQuery](https://jquery.com/), both included in this repo.
 
 ## Filtering Methods
 
